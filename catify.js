@@ -1,0 +1,1 @@
+javascript:var category="cats";var el=document.getElementsByTagName('img');var e=Array.prototype.slice.call(el,0);e.forEach(function(node){var w=node.offsetWidth;var h=node.offsetHeight;node.src="http://lorempixel.com/"+w+"/"+h+"/"+category+"/";});
